@@ -1,0 +1,42 @@
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    height: 200px;
+    width: 18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FEE9E9;
+    border: none;
+    border-radius: 20px;
+    margin: 10px 10px;
+}
+
+.card img {
+    height: 80px;
+    width: 80px;
+}
+
+.card h4 {
+    margin-top: 30px;
+}
+
+.radio {
+    position: absolute;
+    transform: scale(1.5);
+    top: 15px;
+    right: 10px;
+}
+
+.radio:hover {
+    transform: scale(1.6);
+    transition: ease-in-out;
+}
+
+.navbar {
+    z-index: 100;
+}
