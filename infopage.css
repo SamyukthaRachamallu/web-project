@@ -1,0 +1,110 @@
+.body{
+    position: relative;
+    height: 100%;
+}
+
+.wholeDiv {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    vertical-align: middle;
+    background-color: #FFCDCD70;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    border-radius: 20px;
+}
+
+.step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+  }
+  
+  /* Mark the active step: */
+  .step.active {
+    opacity: 1;
+  }
+  
+  /* Mark the steps that are finished and valid: */
+  .step.finish {
+    background-color: #04AA6D;
+  }
+
+  .wholeDiv .cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    height: 80%;
+}
+
+.card {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d9d9d9;
+    border: none;
+    border-radius: 20px;
+    margin: 10px 10px;
+}
+
+.card img {
+    height: 80px;
+    width: 80px;
+}
+
+.card h4 {
+    margin-top: 20px;
+}
+
+.bookBtn {
+    background-color: #F9D4D4;
+    border: none;
+    width: 100%;
+    height: 60px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.bookBtn:hover{
+    scale: 1.05;
+    transition: ease-in;
+    transition-duration: 0.3s;
+}
+
+.radio {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 15px;
+    right: 10px;
+}
+
+.modal-body {
+    display: flex;
+    align-items: center;
+}
+
+.type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+}
+
+.navbar {
+    z-index: 100;
+}
