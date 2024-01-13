@@ -1,0 +1,107 @@
+.body{
+    position: relative;
+    height: 100%;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.wholeDiv {
+    position: absolute;
+    top: 7.5%;
+    left: 10%;
+    vertical-align: middle;
+    background-color: #FFCDCD70;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 85vh;
+    width: 80%;
+}
+
+.sideView {
+    flex: 2;
+    height: 100%;
+    width: 100%;
+}
+
+.form {
+    flex: 1;
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form form {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    background-color: #E0D0D0;
+}
+
+input {
+    margin: 10px 0 !important;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    padding: 10px;
+    width: 100%;
+}
+  
+
+.submitBtn {
+    border: none;
+    border-radius: 10px;
+    height: 35px;
+    margin: 10px 0;
+    background-color: #F5C8296E;
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.forgotPass {
+    color: rgba(0, 0, 0, 0.45);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.span {
+    margin-bottom: 10px;
+}
+
+.signUpBtn {
+    margin-top: 30px !important;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    background-color: #F5C8296E;
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 600px) {
+    .sideView {
+        display: none;
+    }
+}
+
+.navbar {
+    z-index: 100;
+}
